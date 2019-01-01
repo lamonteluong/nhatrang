@@ -1,0 +1,118 @@
+
+
+#home-body {
+    background-image: url(pho.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding-bottom: 5rem;
+}
+
+.navbar-dark {
+    background-color: #202020fa;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    margin: auto 1rem;
+    text-align: start;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title-land {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    padding-top: 25%;
+    text-shadow: 0px 3px 9px rgba(0, 0, 0, 0.4),
+                 0px 4px 12px rgba(0, 0, 0, 0.1),
+                 0px 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0px 3px 9px rgba(0, 0, 0, 0.4),
+                 0px 4px 12px rgba(0, 0, 0, 0.1),
+                 0px 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+li {
+    color: white;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.jumbotron {
+    /* background-color: #575757; */
+    background-image: url(https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-transform: uppercase;
+    padding: 10rem 2rem;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+div h1 {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin: 6rem auto;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.price {
+    float: right;
+}
+
+.item-title {
+    font-weight: 700;
+    /* max-width: 250px; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-xl-4 .item-title {
+    max-width: 250px;
+}
+
+.item {
+    font-size: 17px;
+    margin: 1.5rem 0.5rem;
+    color: #737373;
+    letter-spacing: 0.020rem;
+}
