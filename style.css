@@ -1,7 +1,7 @@
 
 
 #home-body {
-    background-image: url(pho.jpg);
+    background-image: url(edit1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,6 +10,7 @@
 
 html {
     height: 100%;
+    font-family: 'Helvetica', sans-serif;
 }
 
 body {
@@ -31,17 +32,28 @@ body {
 
 h1 {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.brand-icon {
+    max-width: 30px;
+    max-height: 30px;
 }
 
 #title-land {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     font-size: 5rem;
-    padding-top: 25%;
+    padding-top: 15%;
     text-shadow: 0px 3px 9px rgba(0, 0, 0, 0.4),
                  0px 4px 12px rgba(0, 0, 0, 0.1),
                  0px 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+#icon-land {
+    max-width: 15rem;
+    max-height: 15rem;
 }
 
 h2 {
@@ -66,15 +78,14 @@ li {
 
 .jumbotron {
     /* background-color: #575757; */
-    background-image: url(https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80);
+    background-image: url(rice-topdown2.png);
     background-size: cover;
-    background-position: center;
+    background-position: 0% 68%;
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     text-transform: uppercase;
-    padding: 10rem 2rem;
+    padding: 12rem 2rem;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
     0px 8px 13px rgba(0,0,0,0.1),
     0px 18px 23px rgba(0,0,0,0.1);
@@ -85,12 +96,15 @@ div h1 {
     font-size: 5rem;
 }
 
+/* Menu Headings */
 h3 {
     text-transform: uppercase;
     text-align: center;
     color: black;
-    margin: 6rem auto;
-    font-family: 'Amaranth', sans-serif;
+    /* margin: 6rem auto; */
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-family: 'Helvetica', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
 }
