@@ -1,13 +1,4 @@
 
-
-#home-body {
-    background-image: url(edit1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
 html {
     height: 100%;
     font-family: 'Helvetica', sans-serif;
@@ -17,6 +8,22 @@ body {
     padding-bottom: 5rem;
 }
 
+/* Generic & Bootstrap Elements */
+.jumbotron {
+    /* background-color: #575757; */
+    background-size: cover;
+    /* background-position: center; */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-transform: uppercase;
+    padding: 12rem 2rem;
+    /* text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1); */
+}
+
+/* Navigation Bar */
 .navbar-dark {
     background-color: #202020fa;
 }
@@ -30,42 +37,9 @@ body {
     text-align: start;
 }
 
-h1 {
-    color: white;
-    font-family: 'Helvetica', sans-serif;
-}
-
 .brand-icon {
     max-width: 30px;
     max-height: 30px;
-}
-
-#title-land {
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 700;
-    font-size: 5rem;
-    padding-top: 15%;
-    text-shadow: 0px 3px 9px rgba(0, 0, 0, 0.4),
-                 0px 4px 12px rgba(0, 0, 0, 0.1),
-                 0px 8px 18px rgba(0, 0, 0, 0.1);
-}
-
-#icon-land {
-    max-width: 15rem;
-    max-height: 15rem;
-}
-
-h2 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: 0px 3px 9px rgba(0, 0, 0, 0.4),
-                 0px 4px 12px rgba(0, 0, 0, 0.1),
-                 0px 8px 18px rgba(0, 0, 0, 0.1);
-}
-
-.btn {
-    border-radius: 20px;
 }
 
 li {
@@ -76,19 +50,64 @@ li {
     border-bottom: 2px solid white;
 }
 
-.jumbotron {
-    /* background-color: #575757; */
-    background-image: url(rice-topdown2.png);
+
+/* Landing Page */
+#home-body {
+    background-image: url(edit3.jpg);
+    background-position: center;
     background-size: cover;
-    background-position: 0% 68%;
-    height: 100%;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    text-transform: uppercase;
-    padding: 12rem 2rem;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-    0px 8px 13px rgba(0,0,0,0.1),
-    0px 18px 23px rgba(0,0,0,0.1);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#title-land {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    padding-top: 15%;
+    text-shadow: 2px 3px 9px rgba(0, 0, 0, 0.4),
+                 0px 4px 12px rgba(0, 0, 0, 0.1),
+                 0px 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+#icon-land {
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+h1 {
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+    letter-spacing: 0.12rem;
+    text-shadow: 2px 3px 9px rgba(0, 0, 0, 0.4),
+                 0px 4px 12px rgba(0, 0, 0, 0.1),
+                 0px 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    margin-top: 2.5rem;
+    border-radius: 40px;
+    font-weight: 400;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2), 0 4px 16px 0 rgba(0,0,0,0.14);
+}
+
+/* Menu Page */
+#menu-jumbotron {
+    background-image: url(rice-topdown5.jpg);
+    background-position: center;
+}
+.jumbotron h1 {
+    color: rgb(59, 59, 59);
+    font-size: 5rem;
 }
 
 div h1 {
@@ -96,11 +115,11 @@ div h1 {
     font-size: 5rem;
 }
 
-/* Menu Headings */
+/* Menu Items */
 h3 {
     text-transform: uppercase;
     text-align: center;
-    color: black;
+    color: rgb(59, 59, 59);
     /* margin: 6rem auto; */
     margin-top: 6rem;
     margin-bottom: 2rem;
@@ -108,25 +127,36 @@ h3 {
     font-size: 1.5rem;
     font-weight: 700;
 }
-
-.price {
-    float: right;
-}
-
 .item-title {
     font-weight: 700;
-    /* max-width: 250px; */
     display: inline-block;
     vertical-align: top;
+    letter-spacing: 0.05rem;
 }
-
-.col-xl-4 .item-title {
-    max-width: 250px;
-}
-
 .item {
     font-size: 17px;
     margin: 1.5rem 0.5rem;
     color: #737373;
     letter-spacing: 0.020rem;
+}
+.col-xl-4 .item-title {
+    max-width: 250px;
+}
+.item-description {
+    font-weight: 400;
+    padding-left: 3px;
+    border-left: 2px solid #737373;
+}
+.viet-name {
+    font-weight: 200;
+}
+
+.price {
+    float: right;
+}
+
+/* About Page (Location & Hours) */
+#about-jumbotron {
+    background-image: url(about1.jpg);
+    background-position: bottom;
 }
