@@ -1,11 +1,13 @@
 
 html {
     height: 100%;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 body {
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
+    position: relative;
+    min-height: 100%;
 }
 
 /* Generic & Bootstrap Elements */
@@ -22,6 +24,10 @@ body {
     0px 8px 13px rgba(0,0,0,0.1),
     0px 18px 23px rgba(0,0,0,0.1); */
 }
+
+/* .container {
+    position: relative;
+} */
 
 /* Navigation Bar */
 .navbar-dark {
@@ -50,6 +56,10 @@ li {
     border-bottom: 2px solid white;
 }
 
+.jumbotron {
+    border-radius: 0;
+}
+
 
 /* Landing Page */
 #home-body {
@@ -59,6 +69,9 @@ li {
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
+    position: relative;
+    min-height: 100%;
+
 }
 
 #title-land {
@@ -75,6 +88,45 @@ li {
 #icon-land {
     max-width: 15rem;
     max-height: 15rem;
+}
+
+#main-content {
+    /* animation: fadein 2s;
+    -moz-animation: fadein 2s; 
+    -webkit-animation: fadein 2s; 
+    -o-animation: fadein 2s; */ 
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 h1 {
@@ -94,20 +146,31 @@ h2 {
 }
 
 .btn {
-    margin-top: 2.5rem;
+    margin: 2.5rem;
     border-radius: 40px;
     font-weight: 400;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2), 0 4px 16px 0 rgba(0,0,0,0.14);
 }
 
+.copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgb(231, 231, 231);
+    font-weight: 100;
+    font-size: 0.9rem;
+    margin: 1rem 1rem;
+}
+
 /* Menu Page */
 #menu-jumbotron {
-    background-image: url(rice-topdown5.jpg);
+    /* background-image: url(rice-topdown5.jpg); */
     background-position: center;
+    background-color: #fffffb;
 }
 .jumbotron h1 {
     color: rgb(59, 59, 59);
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 div h1 {
@@ -160,5 +223,46 @@ h3 {
 /* About Page (Location & Hours) */
 #about-jumbotron {
     background-image: url(about1.jpg);
-    background-position: bottom;
+    background-position: center;
 }
+
+#about-section h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+    margin-top: 2.5rem;
+}
+
+#about-section hr {
+    width: 75%;
+}
+
+#about-section p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 1rem;
+    color:#383838;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+#hours-row {
+    color:#383838;
+    font-size: 1rem;
+}
+#days {
+    padding-right: 0;
+}
+#hours {
+    letter-spacing: 0.1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #202020fa;
+    color: white;
+    padding: .5rem 1rem;;
+    margin-top: 4rem;
+ }
+
