@@ -149,6 +149,8 @@ h3 {
 }
 .viet-name {
     font-weight: 200;
+    text-transform: lowercase;
+    border-left: 0px;
 }
 
 .price {
