@@ -63,7 +63,7 @@ li {
 
 /* Landing Page */
 #home-body {
-    background-image: url(edit3.jpg);
+    background-image: url(./photos/home-background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -222,7 +222,7 @@ h3 {
 
 /* About Page (Location & Hours) */
 #about-jumbotron {
-    background-image: url(about1.jpg);
+    background-image: url(./photos/about-background.jpg);
     background-position: center;
 }
 
@@ -256,13 +256,36 @@ h3 {
     letter-spacing: 0.1rem;
 }
 
+#map-container {
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+iframe {
+    width: 90%;
+    height: 15rem;
+    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.4),
+                 0px 4px 12px rgba(0, 0, 0, 0.1),
+                 0px 8px 18px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #202020fa;
     color: white;
-    padding: .5rem 1rem;;
-    margin-top: 4rem;
+    padding: 1rem 1rem;;
+    margin-top: 5rem;
+ }
+ .copyright-footer {
+    float: right;
+    color: rgb(231, 231, 231);
+    font-weight: 100;
+    font-size: 0.9rem;
+ }
+
+ .fa-facebook {
+    color: white;
  }
 
