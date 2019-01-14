@@ -158,13 +158,13 @@ h2 {
     right: 0;
     color: rgb(231, 231, 231);
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin: 1rem 1rem;
 }
 
 /* Menu Page */
 #menu-jumbotron {
-    /* background-image: url(rice-topdown5.jpg); */
+    background-image: url(./photos/rice.jpg);
     background-position: center;
     background-color: #fffffb;
 }
@@ -218,6 +218,18 @@ h3 {
 
 .price {
     float: right;
+}
+.title-soup {
+    margin-bottom: 1rem;;
+}
+.large-soup {
+    font-weight: 200;
+    font-size: 17px;
+    text-align: right;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    color: #737373;
+    text-transform: none;
 }
 
 /* About Page (Location & Hours) */
@@ -282,7 +294,7 @@ footer {
     float: right;
     color: rgb(231, 231, 231);
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
  }
 
  .fa-facebook {
