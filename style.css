@@ -164,8 +164,9 @@ h2 {
 
 /* Menu Page */
 #menu-jumbotron {
-    background-image: url(./photos/rice.jpg);
-    background-position: center;
+    background-image: url(./photos/rice-topdown-edit.png);
+    background-position: 80% 14%;
+    background-size: 30em 30em;
     background-color: #fffffb;
 }
 .jumbotron h1 {
