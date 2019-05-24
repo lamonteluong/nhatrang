@@ -70,7 +70,6 @@ li {
     background-repeat: no-repeat;
     text-align: center;
     min-height: 100%;
-
 }
 
 #title-land {
@@ -289,6 +288,10 @@ footer {
     color: white;
     padding: 1rem 1rem;;
     margin-top: 5rem;
+    text-align: left;
+ }
+ #home-footer {
+     background-color: rgba(0, 0, 0, 0);
  }
  .copyright-footer {
     float: right;
@@ -296,8 +299,8 @@ footer {
     font-weight: 100;
     font-size: 0.7rem;
  }
-
  .fa-facebook {
     color: white;
  }
+
 
