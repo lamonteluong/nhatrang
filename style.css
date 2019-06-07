@@ -119,6 +119,11 @@ div h1 {
     font-weight: 700;
     font-size: 5rem;
 }
+.title-desc {
+    width: 90%;
+    margin: 1em auto 1em auto;
+    color: #3c3c3c;
+}
 
 /* Menu Items */
 h3 {
@@ -156,7 +161,10 @@ h3 {
     text-transform: lowercase;
     border-left: 0px;
 }
-
+.food-desc {
+    font-weight: 200;
+    color: #3c3c3c;
+}
 .price {
     float: right;
 }
